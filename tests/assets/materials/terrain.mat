@@ -1,0 +1,19 @@
+[material]
+shader    	= sge/shader/SimpleTerrain.glsl
+defines   	= SGE_RECEIVE_SHADOW, FORWARD_RENDERING, SGE_LIGTHING_ENVIRONMENT, SGE_NORMAL_MAPPING
+
+[textures]
+u_blend_map 		= ../textures/terrainBlend.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_atex_0			= ../textures/sand/albedo.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_ntex_0			= ../textures/sand/normal.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_atex_1			= ../textures/grass/albedo.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_ntex_1			= ../textures/grass/normal.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_atex_2			= ../textures/dirt/albedo.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_ntex_2			= ../textures/dirt/normal.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+
+[parameter]
+u_sge_material.color		= vec3(1,1,1)
+u_sge_material.roughness    = f(1)
+u_sge_material.metalness    = f(0.0)
+u_sge_material.fresnelFactor= f(1)
+u_sge_material.subsurface   = vec4(0,0,0,0)

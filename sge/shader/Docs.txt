@@ -1,0 +1,74 @@
+// The current version does not support geometry shaders
+
+// Vertex Shader Step
+#vertex
+
+// Include functions
+#include "sge/main.glsl"
+
+// Global Uniforms provided by engine
+global uniform float u_sge_time;
+
+// Global Uiforms provided by user
+global uniform vec3 u_main_player_pos;
+
+// Per Object uniform, provided by shader state of renderobject
+uniform vec3 u_tint_color;
+
+// Standart Vertex Code
+#case main
+
+// Input means you request a variable from a previous shader module
+// If there isn't any the variable will be initialed with zero
+
+// Import means you reqesr a variable from the previous shader step
+// In the vertex shader this would be a vertex attribute from a buffer
+// In the fragment shader this would be a varying (export) from the vertex shader
+required input import vec3 a_position;
+
+
+// Output means that this variable should be accessable by following shader modules
+// Export means it will send the interpolated variable to the next shader step
+// the export keyword can be used belated in order to reduce reduntant cases for the export (see bottom)
+output export vec3 m_position;
+output vec3 m_normal;
+
+#endcase
+
+#case export_Normal
+export m_normal;
+#endcase
+
+#case export_Tangent
+export m_tangent;º
+#endcase
+
+#case export_TBN
+export m_tbn;
+#endcase
+
+
+#include for functions will be inserted onto the top of the current shader type // Shadergueard needed
+#insert for copying content of the file directly into the line
+
+
+// SGE UNIFORMS
+sampler2d u_sge_mainTex
+sampler2d u_sge_normalTex
+sampler2d u_sge_matTex
+sampler2d u_sge_maskTex
+
+mat4 u_sge_mvpMatrix
+mat3 u_sge_normalMatrix
+mat4 u_sge_modelMatrix
+mat4 u_sge_viewMatrix
+mat4 u_sge_projectionMatrix
+mat4 u_sge_inverseProjectionMatrix
+mat4 u_sge_projectionViewMatrix
+
+vec3 u_sge_camWorldPos
+float u_sge_time
+vec4 u_sge_material
+    
+
+

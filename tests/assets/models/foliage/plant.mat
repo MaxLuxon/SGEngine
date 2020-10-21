@@ -1,0 +1,15 @@
+[material]
+shader    	= sge/shader/Foliage.glsl
+defines   	= SGE_RECEIVE_SHADOW, SGE_TWO_SIDED,SGE_ALPHA_CUT, FORWARD_RENDERING, SGE_LIGTHING_ENVIRONMENT, SGE_ALBEDO_TEXTURE, SGE_NORMAL_MAPPING, SGE_SUBSURFACE_SCATTERING, SGE_SUBSURFACE_SCATTERING_MAP
+
+[textures]
+u_sge_mainTex		= plant.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_sge_normalTex 	= plantNormal.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+u_sge_ss_tex		= plantSS.png (MIPMAP,LINEAR,LINEAR,REPEAT)
+
+[parameter]
+u_sge_material.color		= vec3(1,1,1)
+u_sge_material.roughness    = f(0.2)
+u_sge_material.metalness    = f(0.4)
+u_sge_material.fresnelFactor= f(1)
+u_sge_material.subsurface   = vec4(0.1,0.1,0.1,0.32)

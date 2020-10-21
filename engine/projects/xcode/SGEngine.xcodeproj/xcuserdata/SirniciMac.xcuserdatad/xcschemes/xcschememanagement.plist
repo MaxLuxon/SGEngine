@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SGEngine_Mac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SGEngine_iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>774A3E361B3189EB00D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3E531B3189EB00D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3E671B318A2000D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3EA41B318B8000D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3EAE1B318B8000D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3EBF1B318C6500D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3F541B31908D00D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>774A3F5E1B31908D00D023A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

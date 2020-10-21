@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557918931D65FCAA00474FF4 /* sge in Resources */ = {isa = PBXBuildFile; fileRef = 557918921D65FCAA00474FF4 /* sge */; };
+		557918941D65FCAA00474FF4 /* sge in Resources */ = {isa = PBXBuildFile; fileRef = 557918921D65FCAA00474FF4 /* sge */; };
+		772197671C511F8C00123CD5 /* libSGEngine_Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B11A41C511E2300D0EFBC /* libSGEngine_Mac.a */; };
+		7721976D1C51A59A00123CD5 /* libSGEngine_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B11A61C511E2300D0EFBC /* libSGEngine_iOS.a */; };
+		7770DB3B1C2CC2BF005086ED /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB3A1C2CC2BF005086ED /* assets */; };
+		7770DB3C1C2CC2BF005086ED /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB3A1C2CC2BF005086ED /* assets */; };
+		7770DB4D1C2CC2FC005086ED /* AppDelegateiOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7770DB401C2CC2FC005086ED /* AppDelegateiOS.mm */; };
+		7770DB511C2CC2FC005086ED /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7770DB421C2CC2FC005086ED /* main.mm */; };
+		7770DB531C2CC2FC005086ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB441C2CC2FC005086ED /* LaunchScreen.xib */; };
+		7770DB551C2CC2FC005086ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB461C2CC2FC005086ED /* Main.storyboard */; };
+		7770DB561C2CC2FC005086ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB481C2CC2FC005086ED /* Images.xcassets */; };
+		7770DB571C2CC2FC005086ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB481C2CC2FC005086ED /* Images.xcassets */; };
+		7770DB581C2CC2FC005086ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB491C2CC2FC005086ED /* Default-568h@2x.png */; };
+		7770DB591C2CC2FC005086ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7770DB491C2CC2FC005086ED /* Default-568h@2x.png */; };
+		7770DB5D1C2CC32C005086ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7770DB5A1C2CC32C005086ED /* main.cpp */; };
+		77A80A061C2CC39E00702F97 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7770DB3E1C2CC2FC005086ED /* GameViewController.mm */; };
+		77A80A161C2CC74000702F97 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A151C2CC74000702F97 /* OpenGL.framework */; };
+		77A80A181C2CC74900702F97 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A171C2CC74900702F97 /* AudioUnit.framework */; };
+		77A80A1A1C2CC75200702F97 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A191C2CC75200702F97 /* CoreAudio.framework */; };
+		77A80A1C1C2CC75A00702F97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A1B1C2CC75A00702F97 /* CoreGraphics.framework */; };
+		77A80A1E1C2CC76100702F97 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A1D1C2CC76100702F97 /* IOKit.framework */; };
+		77A80A201C2CC76F00702F97 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A1F1C2CC76F00702F97 /* libz.tbd */; };
+		77A80A221C2CC79400702F97 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A211C2CC79400702F97 /* Carbon.framework */; };
+		77A80A241C2CC79A00702F97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A231C2CC79A00702F97 /* Cocoa.framework */; };
+		77A80A281C2CC81700702F97 /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A271C2CC81700702F97 /* ForceFeedback.framework */; };
+		77A80A301C2CCAF400702F97 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A2F1C2CCAF400702F97 /* GLKit.framework */; };
+		77A80A321C2CCAFB00702F97 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A311C2CCAFB00702F97 /* GameKit.framework */; };
+		77A80A341C2CCB0600702F97 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A331C2CCB0600702F97 /* libz.tbd */; };
+		77A80A361C2CCB0D00702F97 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A351C2CCB0D00702F97 /* CoreMotion.framework */; };
+		77A80A381C2CCB1400702F97 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A371C2CCB1400702F97 /* OpenGLES.framework */; };
+		77A80A3A1C2CCB1A00702F97 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A80A391C2CCB1A00702F97 /* AudioToolbox.framework */; };
+		77DE1F461D96E281001BECF0 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F3C1D96E281001BECF0 /* AppDelegate.cpp */; };
+		77DE1F471D96E281001BECF0 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F3C1D96E281001BECF0 /* AppDelegate.cpp */; };
+		77DE1F481D96E281001BECF0 /* TestSceneMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F3E1D96E281001BECF0 /* TestSceneMaster.cpp */; };
+		77DE1F491D96E281001BECF0 /* TestSceneMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F3E1D96E281001BECF0 /* TestSceneMaster.cpp */; };
+		77DE1F4A1D96E281001BECF0 /* IGMV_DebugInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F411D96E281001BECF0 /* IGMV_DebugInfo.cpp */; };
+		77DE1F4B1D96E281001BECF0 /* IGMV_DebugInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F411D96E281001BECF0 /* IGMV_DebugInfo.cpp */; };
+		77DE1F4C1D96E281001BECF0 /* InGameModuleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F431D96E281001BECF0 /* InGameModuleView.cpp */; };
+		77DE1F4D1D96E281001BECF0 /* InGameModuleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1F431D96E281001BECF0 /* InGameModuleView.cpp */; };
+		77F82EFA1D92BD14003B6BD7 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F82EF91D92BD14003B6BD7 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		772197681C511F9200123CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 774A3EBF1B318C6500D023A0;
+			remoteInfo = SGEngine_Mac;
+		};
+		7721976E1C51A59F00123CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 774A3F541B31908D00D023A0;
+			remoteInfo = SGEngine_iOS;
+		};
+		777B11A31C511E2300D0EFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 774A3EC01B318C6500D023A0;
+			remoteInfo = SGEngine_Mac;
+		};
+		777B11A51C511E2300D0EFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 774A3F551B31908D00D023A0;
+			remoteInfo = SGEngine_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		557918921D65FCAA00474FF4 /* sge */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sge; path = ../../../sge; sourceTree = "<group>"; };
+		7770DAD61C2CBFCE005086ED /* SGETests_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGETests_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7770DAEE1C2CBFFA005086ED /* SGETests_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGETests_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7770DB3A1C2CC2BF005086ED /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../assets; sourceTree = "<group>"; };
+		7770DB3D1C2CC2FC005086ED /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ios/GameViewController.h; sourceTree = SOURCE_ROOT; };
+		7770DB3E1C2CC2FC005086ED /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameViewController.mm; path = ios/GameViewController.mm; sourceTree = SOURCE_ROOT; };
+		7770DB3F1C2CC2FC005086ED /* AppDelegateiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegateiOS.h; path = ios/AppDelegateiOS.h; sourceTree = SOURCE_ROOT; };
+		7770DB401C2CC2FC005086ED /* AppDelegateiOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegateiOS.mm; path = ios/AppDelegateiOS.mm; sourceTree = SOURCE_ROOT; };
+		7770DB411C2CC2FC005086ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ios/Info.plist; sourceTree = SOURCE_ROOT; };
+		7770DB421C2CC2FC005086ED /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ios/main.mm; sourceTree = SOURCE_ROOT; };
+		7770DB451C2CC2FC005086ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7770DB471C2CC2FC005086ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		7770DB481C2CC2FC005086ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ios/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		7770DB491C2CC2FC005086ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ios/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		7770DB5A1C2CC32C005086ED /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = mac/main.cpp; sourceTree = SOURCE_ROOT; };
+		7770DB5B1C2CC32C005086ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SGEngine.xcodeproj; path = ../../../engine/projects/xcode/SGEngine.xcodeproj; sourceTree = "<group>"; };
+		77A80A151C2CC74000702F97 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		77A80A171C2CC74900702F97 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		77A80A191C2CC75200702F97 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		77A80A1B1C2CC75A00702F97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77A80A1D1C2CC76100702F97 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		77A80A1F1C2CC76F00702F97 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		77A80A211C2CC79400702F97 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		77A80A231C2CC79A00702F97 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		77A80A271C2CC81700702F97 /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
+		77A80A2F1C2CCAF400702F97 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		77A80A311C2CCAFB00702F97 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		77A80A331C2CCB0600702F97 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		77A80A351C2CCB0D00702F97 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		77A80A371C2CCB1400702F97 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		77A80A391C2CCB1A00702F97 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		77DE1F3C1D96E281001BECF0 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		77DE1F3E1D96E281001BECF0 /* TestSceneMaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestSceneMaster.cpp; sourceTree = "<group>"; };
+		77DE1F3F1D96E281001BECF0 /* TestSceneMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSceneMaster.h; sourceTree = "<group>"; };
+		77DE1F411D96E281001BECF0 /* IGMV_DebugInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IGMV_DebugInfo.cpp; sourceTree = "<group>"; };
+		77DE1F421D96E281001BECF0 /* IGMV_DebugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGMV_DebugInfo.h; sourceTree = "<group>"; };
+		77DE1F431D96E281001BECF0 /* InGameModuleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InGameModuleView.cpp; sourceTree = "<group>"; };
+		77DE1F441D96E281001BECF0 /* InGameModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameModuleView.h; sourceTree = "<group>"; };
+		77DE1F451D96E281001BECF0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77F82EF91D92BD14003B6BD7 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7770DAD31C2CBFCE005086ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772197671C511F8C00123CD5 /* libSGEngine_Mac.a in Frameworks */,
+				77A80A281C2CC81700702F97 /* ForceFeedback.framework in Frameworks */,
+				77A80A241C2CC79A00702F97 /* Cocoa.framework in Frameworks */,
+				77A80A221C2CC79400702F97 /* Carbon.framework in Frameworks */,
+				77A80A201C2CC76F00702F97 /* libz.tbd in Frameworks */,
+				77A80A1E1C2CC76100702F97 /* IOKit.framework in Frameworks */,
+				77F82EFA1D92BD14003B6BD7 /* CoreServices.framework in Frameworks */,
+				77A80A1C1C2CC75A00702F97 /* CoreGraphics.framework in Frameworks */,
+				77A80A1A1C2CC75200702F97 /* CoreAudio.framework in Frameworks */,
+				77A80A181C2CC74900702F97 /* AudioUnit.framework in Frameworks */,
+				77A80A161C2CC74000702F97 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7770DAEB1C2CBFFA005086ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7721976D1C51A59A00123CD5 /* libSGEngine_iOS.a in Frameworks */,
+				77A80A3A1C2CCB1A00702F97 /* AudioToolbox.framework in Frameworks */,
+				77A80A381C2CCB1400702F97 /* OpenGLES.framework in Frameworks */,
+				77A80A361C2CCB0D00702F97 /* CoreMotion.framework in Frameworks */,
+				77A80A341C2CCB0600702F97 /* libz.tbd in Frameworks */,
+				77A80A321C2CCAFB00702F97 /* GameKit.framework in Frameworks */,
+				77A80A301C2CCAF400702F97 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7770DACD1C2CBFCE005086ED = {
+			isa = PBXGroup;
+			children = (
+				7770DAD71C2CBFCE005086ED /* Products */,
+				7770DB091C2CC014005086ED /* Support */,
+				7770DB131C2CC02C005086ED /* Subprojects */,
+				77A809FC1C2CC37700702F97 /* Source */,
+				557918921D65FCAA00474FF4 /* sge */,
+				7770DB3A1C2CC2BF005086ED /* assets */,
+			);
+			sourceTree = "<group>";
+		};
+		7770DAD71C2CBFCE005086ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7770DAD61C2CBFCE005086ED /* SGETests_Mac.app */,
+				7770DAEE1C2CBFFA005086ED /* SGETests_Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7770DAD81C2CBFCE005086ED /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				77A80A291C2CC88900702F97 /* Frameworks */,
+				7770DB5A1C2CC32C005086ED /* main.cpp */,
+				7770DB5B1C2CC32C005086ED /* Info.plist */,
+				7770DB5C1C2CC32C005086ED /* Base.lproj */,
+			);
+			name = mac;
+			path = SGETemplate;
+			sourceTree = "<group>";
+		};
+		7770DAEF1C2CBFFA005086ED /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				77A80A3B1C2CCB6C00702F97 /* Frameworks */,
+				7770DB3D1C2CC2FC005086ED /* GameViewController.h */,
+				7770DB3E1C2CC2FC005086ED /* GameViewController.mm */,
+				7770DB3F1C2CC2FC005086ED /* AppDelegateiOS.h */,
+				7770DB401C2CC2FC005086ED /* AppDelegateiOS.mm */,
+				7770DB411C2CC2FC005086ED /* Info.plist */,
+				7770DB421C2CC2FC005086ED /* main.mm */,
+				7770DB431C2CC2FC005086ED /* Base.lproj */,
+				7770DB481C2CC2FC005086ED /* Images.xcassets */,
+				7770DB491C2CC2FC005086ED /* Default-568h@2x.png */,
+			);
+			name = ios;
+			path = SGETemplate_iOS;
+			sourceTree = "<group>";
+		};
+		7770DB091C2CC014005086ED /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7770DAD81C2CBFCE005086ED /* mac */,
+				7770DAEF1C2CBFFA005086ED /* ios */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		7770DB131C2CC02C005086ED /* Subprojects */ = {
+			isa = PBXGroup;
+			children = (
+				777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */,
+			);
+			name = Subprojects;
+			sourceTree = "<group>";
+		};
+		7770DB431C2CC2FC005086ED /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7770DB441C2CC2FC005086ED /* LaunchScreen.xib */,
+				7770DB461C2CC2FC005086ED /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ios/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		7770DB5C1C2CC32C005086ED /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base.lproj;
+			path = mac/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		777B119F1C511E2300D0EFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777B11A41C511E2300D0EFBC /* libSGEngine_Mac.a */,
+				777B11A61C511E2300D0EFBC /* libSGEngine_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A809FC1C2CC37700702F97 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				77DE1F3C1D96E281001BECF0 /* AppDelegate.cpp */,
+				77DE1F451D96E281001BECF0 /* AppDelegate.h */,
+				77DE1F3D1D96E281001BECF0 /* Scenes */,
+				77DE1F401D96E281001BECF0 /* UI */,
+			);
+			name = Source;
+			path = ../../source;
+			sourceTree = "<group>";
+		};
+		77A80A291C2CC88900702F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77F82EF91D92BD14003B6BD7 /* CoreServices.framework */,
+				77A80A271C2CC81700702F97 /* ForceFeedback.framework */,
+				77A80A231C2CC79A00702F97 /* Cocoa.framework */,
+				77A80A211C2CC79400702F97 /* Carbon.framework */,
+				77A80A1F1C2CC76F00702F97 /* libz.tbd */,
+				77A80A1D1C2CC76100702F97 /* IOKit.framework */,
+				77A80A1B1C2CC75A00702F97 /* CoreGraphics.framework */,
+				77A80A191C2CC75200702F97 /* CoreAudio.framework */,
+				77A80A171C2CC74900702F97 /* AudioUnit.framework */,
+				77A80A151C2CC74000702F97 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77A80A3B1C2CCB6C00702F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77A80A391C2CCB1A00702F97 /* AudioToolbox.framework */,
+				77A80A371C2CCB1400702F97 /* OpenGLES.framework */,
+				77A80A351C2CCB0D00702F97 /* CoreMotion.framework */,
+				77A80A331C2CCB0600702F97 /* libz.tbd */,
+				77A80A311C2CCAFB00702F97 /* GameKit.framework */,
+				77A80A2F1C2CCAF400702F97 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77DE1F3D1D96E281001BECF0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				77DE1F3E1D96E281001BECF0 /* TestSceneMaster.cpp */,
+				77DE1F3F1D96E281001BECF0 /* TestSceneMaster.h */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		77DE1F401D96E281001BECF0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				77DE1F411D96E281001BECF0 /* IGMV_DebugInfo.cpp */,
+				77DE1F421D96E281001BECF0 /* IGMV_DebugInfo.h */,
+				77DE1F431D96E281001BECF0 /* InGameModuleView.cpp */,
+				77DE1F441D96E281001BECF0 /* InGameModuleView.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7770DAD51C2CBFCE005086ED /* SGETests_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7770DAE71C2CBFCE005086ED /* Build configuration list for PBXNativeTarget "SGETests_Mac" */;
+			buildPhases = (
+				7770DAD21C2CBFCE005086ED /* Sources */,
+				7770DAD31C2CBFCE005086ED /* Frameworks */,
+				7770DAD41C2CBFCE005086ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772197691C511F9200123CD5 /* PBXTargetDependency */,
+			);
+			name = SGETests_Mac;
+			productName = SGETemplate;
+			productReference = 7770DAD61C2CBFCE005086ED /* SGETests_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7770DAED1C2CBFFA005086ED /* SGETests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7770DB061C2CBFFB005086ED /* Build configuration list for PBXNativeTarget "SGETests_iOS" */;
+			buildPhases = (
+				7770DAEA1C2CBFFA005086ED /* Sources */,
+				7770DAEB1C2CBFFA005086ED /* Frameworks */,
+				7770DAEC1C2CBFFA005086ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7721976F1C51A59F00123CD5 /* PBXTargetDependency */,
+			);
+			name = SGETests_iOS;
+			productName = SGETemplate_iOS;
+			productReference = 7770DAEE1C2CBFFA005086ED /* SGETests_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7770DACE1C2CBFCE005086ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Sirnic;
+				TargetAttributes = {
+					7770DAD51C2CBFCE005086ED = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7770DAED1C2CBFFA005086ED = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T472D8HKMZ;
+					};
+				};
+			};
+			buildConfigurationList = 7770DAD11C2CBFCE005086ED /* Build configuration list for PBXProject "SGETests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7770DACD1C2CBFCE005086ED;
+			productRefGroup = 7770DAD71C2CBFCE005086ED /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 777B119F1C511E2300D0EFBC /* Products */;
+					ProjectRef = 777B119E1C511E2300D0EFBC /* SGEngine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7770DAD51C2CBFCE005086ED /* SGETests_Mac */,
+				7770DAED1C2CBFFA005086ED /* SGETests_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		777B11A41C511E2300D0EFBC /* libSGEngine_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSGEngine_Mac.a;
+			remoteRef = 777B11A31C511E2300D0EFBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		777B11A61C511E2300D0EFBC /* libSGEngine_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSGEngine_iOS.a;
+			remoteRef = 777B11A51C511E2300D0EFBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7770DAD41C2CBFCE005086ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7770DB561C2CC2FC005086ED /* Images.xcassets in Resources */,
+				7770DB3B1C2CC2BF005086ED /* assets in Resources */,
+				7770DB581C2CC2FC005086ED /* Default-568h@2x.png in Resources */,
+				557918931D65FCAA00474FF4 /* sge in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7770DAEC1C2CBFFA005086ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7770DB591C2CC2FC005086ED /* Default-568h@2x.png in Resources */,
+				7770DB571C2CC2FC005086ED /* Images.xcassets in Resources */,
+				7770DB3C1C2CC2BF005086ED /* assets in Resources */,
+				557918941D65FCAA00474FF4 /* sge in Resources */,
+				7770DB531C2CC2FC005086ED /* LaunchScreen.xib in Resources */,
+				7770DB551C2CC2FC005086ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7770DAD21C2CBFCE005086ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DE1F4A1D96E281001BECF0 /* IGMV_DebugInfo.cpp in Sources */,
+				77DE1F4C1D96E281001BECF0 /* InGameModuleView.cpp in Sources */,
+				77DE1F461D96E281001BECF0 /* AppDelegate.cpp in Sources */,
+				7770DB5D1C2CC32C005086ED /* main.cpp in Sources */,
+				77DE1F481D96E281001BECF0 /* TestSceneMaster.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7770DAEA1C2CBFFA005086ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DE1F4D1D96E281001BECF0 /* InGameModuleView.cpp in Sources */,
+				77DE1F471D96E281001BECF0 /* AppDelegate.cpp in Sources */,
+				77A80A061C2CC39E00702F97 /* GameViewController.mm in Sources */,
+				77DE1F4B1D96E281001BECF0 /* IGMV_DebugInfo.cpp in Sources */,
+				7770DB511C2CC2FC005086ED /* main.mm in Sources */,
+				7770DB4D1C2CC2FC005086ED /* AppDelegateiOS.mm in Sources */,
+				77DE1F491D96E281001BECF0 /* TestSceneMaster.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772197691C511F9200123CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGEngine_Mac;
+			targetProxy = 772197681C511F9200123CD5 /* PBXContainerItemProxy */;
+		};
+		7721976F1C51A59F00123CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGEngine_iOS;
+			targetProxy = 7721976E1C51A59F00123CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7770DB441C2CC2FC005086ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7770DB451C2CC2FC005086ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7770DB461C2CC2FC005086ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7770DB471C2CC2FC005086ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7770DAE51C2CBFCE005086ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		7770DAE61C2CBFCE005086ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		7770DAE81C2CBFCE005086ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../engine/external/sdl/mac";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/source",
+					"$(SRCROOT)/../../../engine/platforms/mac",
+					"$(SRCROOT)/../../../engine/external/**",
+					"$(SRCROOT)/../../../engine/external/freetype2/include/mac",
+				);
+				INFOPLIST_FILE = mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/external/sdl/mac",
+					"$(SRCROOT)/../../../engine/external/freetype2/prebuilt/mac",
+					"$(SRCROOT)/../../../engine/external/assimp/lib/mac",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirnic.sgetests;
+				PRODUCT_NAME = SGETests_Mac;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../engine/source/** $(SRCROOT)/../../../engine/external/assimp/include $(SRCROOT)/../../../engine/external/glm";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		7770DAE91C2CBFCE005086ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../engine/external/sdl/mac";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/source",
+					"$(SRCROOT)/../../../engine/platforms/mac",
+					"$(SRCROOT)/../../../engine/external/**",
+					"$(SRCROOT)/../../../engine/external/freetype2/include/mac",
+				);
+				INFOPLIST_FILE = mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/external/sdl/mac",
+					"$(SRCROOT)/../../../engine/external/freetype2/prebuilt/mac",
+					"$(SRCROOT)/../../../engine/external/assimp/lib/mac",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirnic.sgetests;
+				PRODUCT_NAME = SGETests_Mac;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../engine/source/** $(SRCROOT)/../../../engine/external/assimp/include $(SRCROOT)/../../../engine/external/glm";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		7770DB071C2CBFFB005086ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T472D8HKMZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../engine/external/sdl/ios";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/source",
+					"$(SRCROOT)/../../../engine/platforms/ios",
+					"$(SRCROOT)/../../../engine/external/**",
+					"$(SRCROOT)/../../../engine/external/freetype2/include/ios",
+				);
+				INFOPLIST_FILE = ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/external/sdl/ios",
+					"$(SRCROOT)/../../../engine/external/freetype2/prebuilt/ios",
+					"$(SRCROOT)/../../../engine/external/assimp/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirnic.testx;
+				PRODUCT_MODULE_NAME = Hexoplanet_iOS;
+				PRODUCT_NAME = SGETests_Mac;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../engine/source/** $(SRCROOT)/../../../engine/external/assimp/include $(SRCROOT)/../../../engine/external/glm";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		7770DB081C2CBFFB005086ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T472D8HKMZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../engine/external/sdl/ios";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/source",
+					"$(SRCROOT)/../../../engine/platforms/ios",
+					"$(SRCROOT)/../../../engine/external/**",
+					"$(SRCROOT)/../../../engine/external/freetype2/include/ios",
+				);
+				INFOPLIST_FILE = ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../engine/external/sdl/ios",
+					"$(SRCROOT)/../../../engine/external/freetype2/prebuilt/ios",
+					"$(SRCROOT)/../../../engine/external/assimp/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirnic.testx;
+				PRODUCT_MODULE_NAME = Hexoplanet_iOS;
+				PRODUCT_NAME = SGETests_Mac;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../engine/source/** $(SRCROOT)/../../../engine/external/assimp/include $(SRCROOT)/../../../engine/external/glm";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7770DAD11C2CBFCE005086ED /* Build configuration list for PBXProject "SGETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7770DAE51C2CBFCE005086ED /* Debug */,
+				7770DAE61C2CBFCE005086ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7770DAE71C2CBFCE005086ED /* Build configuration list for PBXNativeTarget "SGETests_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7770DAE81C2CBFCE005086ED /* Debug */,
+				7770DAE91C2CBFCE005086ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7770DB061C2CBFFB005086ED /* Build configuration list for PBXNativeTarget "SGETests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7770DB071C2CBFFB005086ED /* Debug */,
+				7770DB081C2CBFFB005086ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7770DACE1C2CBFCE005086ED /* Project object */;
+}
